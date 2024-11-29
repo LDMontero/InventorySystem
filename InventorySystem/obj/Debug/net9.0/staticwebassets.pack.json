@@ -1,0 +1,45 @@
+{
+  "Files": [
+    {
+      "Id": "/Users/macintosh/RiderProjects/InventorySystem/InventorySystem/obj/Debug/net9.0/scopedcss/projectbundle/InventorySystem.bundle.scp.css",
+      "PackagePath": "staticwebassets/InventorySystem.bundle.scp.css"
+    },
+    {
+      "Id": "/Users/macintosh/RiderProjects/InventorySystem/InventorySystem/wwwroot/app.css",
+      "PackagePath": "staticwebassets/app.css"
+    },
+    {
+      "Id": "/Users/macintosh/RiderProjects/InventorySystem/InventorySystem/wwwroot/bootstrap/bootstrap.min.css",
+      "PackagePath": "staticwebassets/bootstrap/bootstrap.min.css"
+    },
+    {
+      "Id": "/Users/macintosh/RiderProjects/InventorySystem/InventorySystem/wwwroot/bootstrap/bootstrap.min.css.map",
+      "PackagePath": "staticwebassets/bootstrap/bootstrap.min.css.map"
+    },
+    {
+      "Id": "/Users/macintosh/RiderProjects/InventorySystem/InventorySystem/wwwroot/favicon.png",
+      "PackagePath": "staticwebassets/favicon.png"
+    },
+    {
+      "Id": "obj/Debug/net9.0/staticwebassets/msbuild.InventorySystem.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj/Debug/net9.0/staticwebassets/msbuild.InventorySystem.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net9.0/staticwebassets/msbuild.build.InventorySystem.props",
+      "PackagePath": "build\\InventorySystem.props"
+    },
+    {
+      "Id": "obj/Debug/net9.0/staticwebassets/msbuild.buildMultiTargeting.InventorySystem.props",
+      "PackagePath": "buildMultiTargeting\\InventorySystem.props"
+    },
+    {
+      "Id": "obj/Debug/net9.0/staticwebassets/msbuild.buildTransitive.InventorySystem.props",
+      "PackagePath": "buildTransitive\\InventorySystem.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

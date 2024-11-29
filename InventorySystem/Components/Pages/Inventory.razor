@@ -1,0 +1,128 @@
+@page "/inventory"
+@using InventorySystem.Data
+@using InventorySystem.Models
+@using InventorySystem.Services
+@inject ProductService ProductService
+@rendermode InteractiveServer
+@* @inject IDbContextFactory<ApplicationDbContext> *@
+<h3>Inventory</h3>
+
+<table style="width: 100%">
+    <tr>
+        <th>Id</th>
+        <th>Nombre</th>
+        <th>Precio</th>
+        <th>Cantidad</th>
+        <th>Acción</th>
+    </tr>
+    @foreach (var product in products)
+    {
+        <tr>
+            <td>@product.Id</td>
+            <td>@product.Name</td>
+            <td>@product.Price.ToString("C")</td>
+            <td>@product.Quantity</td>
+            <td>
+                <button class="btn btn-primary" @onclick="() => StartEditProduct(product)">Edit</button>
+                <button class="btn btn-danger" @onclick="() => DeleteProduct(product.Id)">Delete</button>
+            </td>
+        </tr>
+        @if (productBeingEdited?.Id == product.Id)
+        {
+            <tr>
+                <td>@productBeingEdited.Id</td>
+                <td><InputText @bind-Value="productBeingEdited.Name" /></td>
+                <td><InputNumber @bind-Value="productBeingEdited.Price" /></td>
+                <td><InputNumber @bind-Value="productBeingEdited.Quantity" /></td>
+                <td>
+                    <button class="btn btn-success" @onclick="() => SaveProduct()">Save</button>
+                    <button class="btn btn-secondary" @onclick="() => CancelEdit()">Cancel</button>
+                </td>
+            </tr>
+        }
+    }
+    <tr>
+        <td></td>
+        <td>
+            <InputText @bind-Value="newProduct.Name"/>
+        </td>
+        <td>
+            <InputNumber @bind-Value="newProduct.Price"/>
+        </td>
+        <td>
+            <InputNumber @bind-Value="newProduct.Quantity"/>
+        </td>
+        <td>
+            <button type="button" @onclick="AddProduct" class="btn btn-primary">Add Product</button>
+        </td>
+    </tr>
+    
+</table>
+
+
+@code {
+    DisplayProductModel newProduct = new();
+    DisplayProductModel productBeingEdited;
+
+    // function to add a product to database
+    private async void AddProduct()
+    {
+        Product product = new()
+        {
+            Name = newProduct.Name,
+            Price = newProduct.Price,
+            Quantity = newProduct.Quantity,
+            ImageUrl = "https://via.placeholder.com/150"
+        };
+        
+        await ProductService.AddProductAsync(product);
+        products = await ProductService.GetProductsAsync();
+    }
+
+    private async void DeleteProduct(int productId)
+    {
+        await ProductService.DeleteProductAsync(productId);
+        products = await ProductService.GetProductsAsync();
+    }
+
+    // function to get all products from database with _context
+    private Product[] products = Array.Empty<Product>();
+
+    protected override async void OnInitialized()
+    {
+        products = await ProductService.GetProductsAsync();
+    }
+    
+    private void StartEditProduct(Product product)
+    {
+        productBeingEdited = new DisplayProductModel
+        {
+            Id = product.Id,
+            Name = product.Name,
+            Price = product.Price,
+            Quantity = product.Quantity
+        };
+    }
+
+    private void CancelEdit()
+    {
+        productBeingEdited = null;
+    }
+
+    private async void SaveProduct()
+    {
+        Product product = new()
+        {
+            Id = productBeingEdited.Id ?? 0,
+            Name = productBeingEdited.Name,
+            Price = productBeingEdited.Price,
+            Quantity = productBeingEdited.Quantity,
+            ImageUrl = "https://via.placeholder.com/150"
+        };
+        
+        await ProductService.UpdateProductAsync(product);
+
+        productBeingEdited = null;
+        products = await ProductService.GetProductsAsync();
+    }
+}

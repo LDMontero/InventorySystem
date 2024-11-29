@@ -1,0 +1,831 @@
+{
+  "Version": 1,
+  "Hash": "EXieT4LseQk4z/BPS20eYTiCdAiatl+Sy9RC7h2H1cs=",
+  "Source": "InventorySystem",
+  "BasePath": "_content/InventorySystem",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "InventorySystem/wwwroot",
+      "Source": "InventorySystem",
+      "ContentRoot": "/Users/macintosh/RiderProjects/InventorySystem/InventorySystem/wwwroot/",
+      "BasePath": "_content/InventorySystem",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "/Users/macintosh/RiderProjects/InventorySystem/InventorySystem/obj/Debug/net9.0/compressed/11zfl22c2q.gz",
+      "SourceId": "InventorySystem",
+      "SourceType": "Computed",
+      "ContentRoot": "/Users/macintosh/RiderProjects/InventorySystem/InventorySystem/obj/Debug/net9.0/compressed/",
+      "BasePath": "_content/InventorySystem",
+      "RelativePath": "InventorySystem.bundle.scp.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "Reference",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "/Users/macintosh/RiderProjects/InventorySystem/InventorySystem/obj/Debug/net9.0/scopedcss/projectbundle/InventorySystem.bundle.scp.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "a3gz4bsqdq",
+      "Integrity": "NgzCzh/X+TEC5XahXKY9tZMqPCrkBTRKXNIlebXtWk0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/Users/macintosh/RiderProjects/InventorySystem/InventorySystem/obj/Debug/net9.0/scopedcss/projectbundle/InventorySystem.bundle.scp.css"
+    },
+    {
+      "Identity": "/Users/macintosh/RiderProjects/InventorySystem/InventorySystem/obj/Debug/net9.0/compressed/48a4ws19w1.gz",
+      "SourceId": "InventorySystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/macintosh/RiderProjects/InventorySystem/InventorySystem/obj/Debug/net9.0/compressed/",
+      "BasePath": "_content/InventorySystem",
+      "RelativePath": "app.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "/Users/macintosh/RiderProjects/InventorySystem/InventorySystem/wwwroot/app.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "jd9ybuu0hn",
+      "Integrity": "CZld9hJRl7KO7AWpGMA96QIVZZwfpaQFwGl62CXuVrE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/Users/macintosh/RiderProjects/InventorySystem/InventorySystem/wwwroot/app.css"
+    },
+    {
+      "Identity": "/Users/macintosh/RiderProjects/InventorySystem/InventorySystem/obj/Debug/net9.0/compressed/duzkobf3dp.gz",
+      "SourceId": "InventorySystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/macintosh/RiderProjects/InventorySystem/InventorySystem/obj/Debug/net9.0/compressed/",
+      "BasePath": "_content/InventorySystem",
+      "RelativePath": "bootstrap/bootstrap.min.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "/Users/macintosh/RiderProjects/InventorySystem/InventorySystem/wwwroot/bootstrap/bootstrap.min.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "15b93ats3o",
+      "Integrity": "W0TLpyx5mAmx7QZwh/7OoruvILEJ0+/3ba9Lf24TEUk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/Users/macintosh/RiderProjects/InventorySystem/InventorySystem/wwwroot/bootstrap/bootstrap.min.css"
+    },
+    {
+      "Identity": "/Users/macintosh/RiderProjects/InventorySystem/InventorySystem/obj/Debug/net9.0/compressed/ufr4ig78z3.gz",
+      "SourceId": "InventorySystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/macintosh/RiderProjects/InventorySystem/InventorySystem/obj/Debug/net9.0/compressed/",
+      "BasePath": "_content/InventorySystem",
+      "RelativePath": "bootstrap/bootstrap.min.css.map.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "/Users/macintosh/RiderProjects/InventorySystem/InventorySystem/wwwroot/bootstrap/bootstrap.min.css.map",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "dh17d4gbe8",
+      "Integrity": "v39nGTn8DWXNzTQVhbWw8016XZQ3vrzF2viNaNpcxl4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/Users/macintosh/RiderProjects/InventorySystem/InventorySystem/wwwroot/bootstrap/bootstrap.min.css.map"
+    },
+    {
+      "Identity": "/Users/macintosh/RiderProjects/InventorySystem/InventorySystem/obj/Debug/net9.0/compressed/w4o07skuxv.gz",
+      "SourceId": "InventorySystem",
+      "SourceType": "Computed",
+      "ContentRoot": "/Users/macintosh/RiderProjects/InventorySystem/InventorySystem/obj/Debug/net9.0/compressed/",
+      "BasePath": "_content/InventorySystem",
+      "RelativePath": "InventorySystem.styles.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "CurrentProject",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "/Users/macintosh/RiderProjects/InventorySystem/InventorySystem/obj/Debug/net9.0/scopedcss/bundle/InventorySystem.styles.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "a3gz4bsqdq",
+      "Integrity": "NgzCzh/X+TEC5XahXKY9tZMqPCrkBTRKXNIlebXtWk0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/Users/macintosh/RiderProjects/InventorySystem/InventorySystem/obj/Debug/net9.0/scopedcss/bundle/InventorySystem.styles.css"
+    },
+    {
+      "Identity": "/Users/macintosh/RiderProjects/InventorySystem/InventorySystem/obj/Debug/net9.0/scopedcss/bundle/InventorySystem.styles.css",
+      "SourceId": "InventorySystem",
+      "SourceType": "Computed",
+      "ContentRoot": "/Users/macintosh/RiderProjects/InventorySystem/InventorySystem/obj/Debug/net9.0/scopedcss/bundle/",
+      "BasePath": "_content/InventorySystem",
+      "RelativePath": "InventorySystem.styles.css",
+      "AssetKind": "All",
+      "AssetMode": "CurrentProject",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ApplicationBundle",
+      "Fingerprint": "mkvbftk51b",
+      "Integrity": "lve+upG6odgmdBU05imyt6Y1pQs1Imbc6v2iot4lzNI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/Users/macintosh/RiderProjects/InventorySystem/InventorySystem/obj/Debug/net9.0/scopedcss/bundle/InventorySystem.styles.css"
+    },
+    {
+      "Identity": "/Users/macintosh/RiderProjects/InventorySystem/InventorySystem/obj/Debug/net9.0/scopedcss/projectbundle/InventorySystem.bundle.scp.css",
+      "SourceId": "InventorySystem",
+      "SourceType": "Computed",
+      "ContentRoot": "/Users/macintosh/RiderProjects/InventorySystem/InventorySystem/obj/Debug/net9.0/scopedcss/projectbundle/",
+      "BasePath": "_content/InventorySystem",
+      "RelativePath": "InventorySystem.bundle.scp.css",
+      "AssetKind": "All",
+      "AssetMode": "Reference",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ProjectBundle",
+      "Fingerprint": "mkvbftk51b",
+      "Integrity": "lve+upG6odgmdBU05imyt6Y1pQs1Imbc6v2iot4lzNI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/Users/macintosh/RiderProjects/InventorySystem/InventorySystem/obj/Debug/net9.0/scopedcss/projectbundle/InventorySystem.bundle.scp.css"
+    },
+    {
+      "Identity": "/Users/macintosh/RiderProjects/InventorySystem/InventorySystem/wwwroot/app.css",
+      "SourceId": "InventorySystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/macintosh/RiderProjects/InventorySystem/InventorySystem/wwwroot/",
+      "BasePath": "_content/InventorySystem",
+      "RelativePath": "app.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "v5b7vqvy3h",
+      "Integrity": "Q8siP9SiZV8GNOzlkHETapY6R/XrhQbE90aAnlHmHFo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/app.css"
+    },
+    {
+      "Identity": "/Users/macintosh/RiderProjects/InventorySystem/InventorySystem/wwwroot/bootstrap/bootstrap.min.css",
+      "SourceId": "InventorySystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/macintosh/RiderProjects/InventorySystem/InventorySystem/wwwroot/",
+      "BasePath": "_content/InventorySystem",
+      "RelativePath": "bootstrap/bootstrap.min.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "bpk8xqwxhs",
+      "Integrity": "z8OR40MowJ8GgK6P89Y+hiJK5+cclzFHzLhFQLL92bg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/bootstrap/bootstrap.min.css"
+    },
+    {
+      "Identity": "/Users/macintosh/RiderProjects/InventorySystem/InventorySystem/wwwroot/bootstrap/bootstrap.min.css.map",
+      "SourceId": "InventorySystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/macintosh/RiderProjects/InventorySystem/InventorySystem/wwwroot/",
+      "BasePath": "_content/InventorySystem",
+      "RelativePath": "bootstrap/bootstrap.min.css.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "8inm30yfxf",
+      "Integrity": "gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/bootstrap/bootstrap.min.css.map"
+    },
+    {
+      "Identity": "/Users/macintosh/RiderProjects/InventorySystem/InventorySystem/wwwroot/favicon.png",
+      "SourceId": "InventorySystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/macintosh/RiderProjects/InventorySystem/InventorySystem/wwwroot/",
+      "BasePath": "_content/InventorySystem",
+      "RelativePath": "favicon.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ifv42okdf2",
+      "Integrity": "4mWsDy3aHl36ZbGt8zByK7Pvd4kRUoNgTYzRnwmPHwg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/favicon.png"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "app.css",
+      "AssetFile": "/Users/macintosh/RiderProjects/InventorySystem/InventorySystem/obj/Debug/net9.0/compressed/48a4ws19w1.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000697350070"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1433"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"CZld9hJRl7KO7AWpGMA96QIVZZwfpaQFwGl62CXuVrE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 08 Jun 2024 03:10:39 GMT"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"Q8siP9SiZV8GNOzlkHETapY6R/XrhQbE90aAnlHmHFo=\""
+        }
+      ],
+      "EndpointProperties": []
+    },
+    {
+      "Route": "app.css",
+      "AssetFile": "/Users/macintosh/RiderProjects/InventorySystem/InventorySystem/wwwroot/app.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2540"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Q8siP9SiZV8GNOzlkHETapY6R/XrhQbE90aAnlHmHFo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 08 Jun 2024 03:10:39 GMT"
+        }
+      ],
+      "EndpointProperties": []
+    },
+    {
+      "Route": "app.css.gz",
+      "AssetFile": "/Users/macintosh/RiderProjects/InventorySystem/InventorySystem/obj/Debug/net9.0/compressed/48a4ws19w1.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1433"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"CZld9hJRl7KO7AWpGMA96QIVZZwfpaQFwGl62CXuVrE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 08 Jun 2024 03:10:39 GMT"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": []
+    },
+    {
+      "Route": "bootstrap/bootstrap.min.css",
+      "AssetFile": "/Users/macintosh/RiderProjects/InventorySystem/InventorySystem/obj/Debug/net9.0/compressed/duzkobf3dp.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000041853262"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "23892"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"W0TLpyx5mAmx7QZwh/7OoruvILEJ0+/3ba9Lf24TEUk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 08 Jun 2024 03:10:39 GMT"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"z8OR40MowJ8GgK6P89Y+hiJK5+cclzFHzLhFQLL92bg=\""
+        }
+      ],
+      "EndpointProperties": []
+    },
+    {
+      "Route": "bootstrap/bootstrap.min.css",
+      "AssetFile": "/Users/macintosh/RiderProjects/InventorySystem/InventorySystem/wwwroot/bootstrap/bootstrap.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "162720"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"z8OR40MowJ8GgK6P89Y+hiJK5+cclzFHzLhFQLL92bg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 08 Jun 2024 03:10:39 GMT"
+        }
+      ],
+      "EndpointProperties": []
+    },
+    {
+      "Route": "bootstrap/bootstrap.min.css.gz",
+      "AssetFile": "/Users/macintosh/RiderProjects/InventorySystem/InventorySystem/obj/Debug/net9.0/compressed/duzkobf3dp.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "23892"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"W0TLpyx5mAmx7QZwh/7OoruvILEJ0+/3ba9Lf24TEUk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 08 Jun 2024 03:10:39 GMT"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": []
+    },
+    {
+      "Route": "bootstrap/bootstrap.min.css.map",
+      "AssetFile": "/Users/macintosh/RiderProjects/InventorySystem/InventorySystem/obj/Debug/net9.0/compressed/ufr4ig78z3.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000013350065"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "74905"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"v39nGTn8DWXNzTQVhbWw8016XZQ3vrzF2viNaNpcxl4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 08 Jun 2024 03:10:39 GMT"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ=\""
+        }
+      ],
+      "EndpointProperties": []
+    },
+    {
+      "Route": "bootstrap/bootstrap.min.css.map",
+      "AssetFile": "/Users/macintosh/RiderProjects/InventorySystem/InventorySystem/wwwroot/bootstrap/bootstrap.min.css.map",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "449111"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 08 Jun 2024 03:10:39 GMT"
+        }
+      ],
+      "EndpointProperties": []
+    },
+    {
+      "Route": "bootstrap/bootstrap.min.css.map.gz",
+      "AssetFile": "/Users/macintosh/RiderProjects/InventorySystem/InventorySystem/obj/Debug/net9.0/compressed/ufr4ig78z3.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "74905"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/x-gzip"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"v39nGTn8DWXNzTQVhbWw8016XZQ3vrzF2viNaNpcxl4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 08 Jun 2024 03:10:39 GMT"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": []
+    },
+    {
+      "Route": "favicon.png",
+      "AssetFile": "/Users/macintosh/RiderProjects/InventorySystem/InventorySystem/wwwroot/favicon.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1148"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4mWsDy3aHl36ZbGt8zByK7Pvd4kRUoNgTYzRnwmPHwg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 08 Jun 2024 03:10:39 GMT"
+        }
+      ],
+      "EndpointProperties": []
+    },
+    {
+      "Route": "InventorySystem.bundle.scp.css",
+      "AssetFile": "/Users/macintosh/RiderProjects/InventorySystem/InventorySystem/obj/Debug/net9.0/compressed/11zfl22c2q.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000450653447"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2218"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"NgzCzh/X+TEC5XahXKY9tZMqPCrkBTRKXNIlebXtWk0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 08 Jun 2024 03:11:31 GMT"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"lve+upG6odgmdBU05imyt6Y1pQs1Imbc6v2iot4lzNI=\""
+        }
+      ],
+      "EndpointProperties": []
+    },
+    {
+      "Route": "InventorySystem.bundle.scp.css",
+      "AssetFile": "/Users/macintosh/RiderProjects/InventorySystem/InventorySystem/obj/Debug/net9.0/scopedcss/projectbundle/InventorySystem.bundle.scp.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8006"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"lve+upG6odgmdBU05imyt6Y1pQs1Imbc6v2iot4lzNI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 08 Jun 2024 03:11:31 GMT"
+        }
+      ],
+      "EndpointProperties": []
+    },
+    {
+      "Route": "InventorySystem.bundle.scp.css.gz",
+      "AssetFile": "/Users/macintosh/RiderProjects/InventorySystem/InventorySystem/obj/Debug/net9.0/compressed/11zfl22c2q.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2218"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"NgzCzh/X+TEC5XahXKY9tZMqPCrkBTRKXNIlebXtWk0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 08 Jun 2024 03:11:31 GMT"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": []
+    },
+    {
+      "Route": "InventorySystem.styles.css",
+      "AssetFile": "/Users/macintosh/RiderProjects/InventorySystem/InventorySystem/obj/Debug/net9.0/compressed/w4o07skuxv.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000450653447"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2218"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"NgzCzh/X+TEC5XahXKY9tZMqPCrkBTRKXNIlebXtWk0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 08 Jun 2024 03:11:31 GMT"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"lve+upG6odgmdBU05imyt6Y1pQs1Imbc6v2iot4lzNI=\""
+        }
+      ],
+      "EndpointProperties": []
+    },
+    {
+      "Route": "InventorySystem.styles.css",
+      "AssetFile": "/Users/macintosh/RiderProjects/InventorySystem/InventorySystem/obj/Debug/net9.0/scopedcss/bundle/InventorySystem.styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8006"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"lve+upG6odgmdBU05imyt6Y1pQs1Imbc6v2iot4lzNI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 08 Jun 2024 03:11:31 GMT"
+        }
+      ],
+      "EndpointProperties": []
+    },
+    {
+      "Route": "InventorySystem.styles.css.gz",
+      "AssetFile": "/Users/macintosh/RiderProjects/InventorySystem/InventorySystem/obj/Debug/net9.0/compressed/w4o07skuxv.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2218"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"NgzCzh/X+TEC5XahXKY9tZMqPCrkBTRKXNIlebXtWk0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 08 Jun 2024 03:11:31 GMT"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": []
+    }
+  ]
+}
